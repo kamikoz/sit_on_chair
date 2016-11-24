@@ -89,7 +89,7 @@ h4 {
   margin-top: 10px;
 }
 
-header .logo a span {
+header .logo a span, h1 span {
   color: #22BB9F;
   font-weight: bold;
 }
@@ -837,5 +837,5 @@ footer .logo a span {
 .green_button:hover {
   background-color: #F9F9F9 ;
   color: #22BB9F;
-  box-shadow: 0 0 4px 2px #585858
+  box-shadow: 0 0 5px 1px #585858
 }
