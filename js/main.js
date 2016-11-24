@@ -152,5 +152,5 @@ transport.addEventListener("change", function(){
 function sum() {
   var sumAll = 0;
   sumAll = Number(chairColorChoiceValue.innerText) + Number(chairTypeChoiceValue.innerText) + Number(chairTextileChoiceValue.innerText) + Number(transportChoiceValue.innerText);
-  sumOfOrder.innerText = sumAll.toFixed(2) + " zł";
+  sumOfOrder.firstElementChild.innerText = sumAll.toFixed(2) + " zł";
 }

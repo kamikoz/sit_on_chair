@@ -459,7 +459,6 @@ nav ol > li:first-child::before {
   position: relative;
   color: #C2C2C2;
   background-color: white;
-  line-height: 0.85;
   font-weight: bold;
   width: 140px;
   height: 140px;
@@ -470,8 +469,11 @@ nav ol > li:first-child::before {
 
 .subscription span {
   font-size: 45px;
+  font-weight: bold;
   flex-basis: 100%;
   color:#C2C2C2;
+  display: block;
+  margin-bottom: 3px;
 }
 
 .subscription sup {
